@@ -1,0 +1,65 @@
+.profile {
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+    border: 1px solid #757171;
+    text-align: center;
+}
+
+.grid {
+    display:block;
+    margin: 5em;
+    flex-direction: column;  
+    gap: 3em;
+    text-align: centers;
+    align-content: center;
+    }
+
+.project {
+    display:block;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 1px;
+}
+
+.project img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex: 1 1 100%;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h4 {
+  text-align: center;
+  border: 1px solid #757171;
+  padding: 0 500px;  /* pushes text inward */
+  font-size: 18px;
+}
+
+}
+p{
+border: 8em;
+}
+
+.grid img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+    justify-content: center;
+
+}
